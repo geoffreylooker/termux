@@ -6,6 +6,8 @@ android-sdk-install-win10.md
     # java  
     https://www.java.com/en/download/win10.jsp  
     #  
+    https://developer.android.com/studio/command-line/adb.html
+    #
     
     
     # other
@@ -32,10 +34,16 @@ android-sdk-install-win10.md
     # Command parameters format: adb backup [-f <file>] [-apk|-noapk] [-shared|-noshared] [-all] [-system|nosystem] [<packages...>]
 
     # * Start doing N7 backup by using the command:
-    adb backup -apk -shared -all -f C:\n7-full-backup.ab
+    adb backup -apk -shared -all -f C:\Users\geoff\pixel-full-backup.ab
+    # 
+    # eg: 
+    #   C:\WINDOWS\system32>adb backup -apk -shared -all -f C:\Users\geoff\pixel-full-backup.ab
+    #
     # * It should ask if you want to. Touch "Back up my data". 
-
-
+    #   Now unlock your device and confirm the backup operation...
+    #
+    ###############
+    #
     # * to restore everything, 
     adb restore C:\n7-full-backup.ab
     # Then tap "Restore my data" on your N7 to start.
