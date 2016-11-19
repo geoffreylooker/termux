@@ -17,7 +17,18 @@ android-sdk-install-win10.md
     
     
     # * How to perform a full system backup.
-
+    
+    # FYI: 
+    #  1 * run cmd terminal as ADMIN!!! observed result is both execute with ADMIN-term returning:
+    #    * daemon started successfully *
+    #         HT69T0200871    device
+    #  vs: 
+    #    * daemon started successfully *
+    #         List of devices attached
+    #          HT69T0200871    offline
+    #
+    #  2 * both handset and pc must be on same wifi, not wifi-handset/lan-pc
+    #
     # Command parameters format: adb backup [-f <file>] [-apk|-noapk] [-shared|-noshared] [-all] [-system|nosystem] [<packages...>]
 
     # * Start doing N7 backup by using the command:
