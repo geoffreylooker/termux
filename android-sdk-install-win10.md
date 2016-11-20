@@ -3,6 +3,9 @@ android-sdk-install-win10.md
    
 ### Prereq  
 ==========  
+    # see site which is good for pre-requisits:
+    # http://www.howtogeek.com/125375/how-to-create-a-full-android-phone-or-tablet-backup-without-rooting-or-unlocking-your-device/
+    #
     # java  
     https://www.java.com/en/download/win10.jsp  
     #  
